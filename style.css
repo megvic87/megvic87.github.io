@@ -1,20 +1,17 @@
 @import url(http://fonts.googleapis.com/css?family=Gruppo);
-@import url(http://fonts.googleapis.com/css?family=Oswald);
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,700);
 body{
 	background-color: #665A5C;
 	font-size:24px;
-	text-align: center;
+	font-family: 'Oswald', sans-serif;
 }
 h1{
 	font-family: 'Gruppo', cursive;
 	color: #E52039;
 	font-size:2em;
-	font-family: Arial, sans-serif
+	text-align: center;
 	text-decoration: underline;
 }
-h2{
-	font-family: 'Oswald', sans-serif;
-}
 #slogan{
-	text-decoration: bold;
+	font-weight: 700;
 }
