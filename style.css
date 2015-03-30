@@ -1,17 +1,58 @@
 @import url(http://fonts.googleapis.com/css?family=Gruppo);
-@import url(http://fonts.googleapis.com/css?family=Oswald:400,700);
+@import url(http://fonts.googleapis.com/css?family=Noto+Sans);
 body{
-	background-color: #665A5C;
-	font-size:24px;
-	font-family: 'Oswald', sans-serif;
+	background-color: #E0E3E5;
+	font-size:18px;
+	font-family: 'Noto', sans-serif;
 }
-h1{
-	font-family: 'Gruppo', cursive;
-	color: #E52039;
+img{
+	margin: 0em;
+	padding: 0em;
+	border: 0px;
+}
+
+section#about{
+	width:50%;
+	color: #4F524F;
+	background-color:#fff;
+	margin:4em auto;
+	padding:3em;
+}
+#foodanddrinkpictures{
+	width: 90%;
+}
+#portraitmartini{
+	float: left;
+}
+#landscapemartinitop{
+	float: right;
+}
+
+#martinibottom{
+	float: left;
+}
+
+section#lifestyle{
+	width: 100%;
+
+}
+h1,h2{
+	font-family: 'Gruppo';
+	color: #4F524F;
 	font-size:2em;
+	text-align: left;
+}
+div#saxophonefullwidth{
+	width: 100%;
+}
+
+p{
+	line-height: 1.25em;
+	margin-top: 1em;
+}
+footer{
+	font-size: .75em;
 	text-align: center;
-	text-decoration: underline;
 }
-#slogan{
-	font-weight: 700;
-}
+
+
