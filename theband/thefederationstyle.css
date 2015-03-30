@@ -1,0 +1,77 @@
+@import url(http://fonts.googleapis.com/css?family=Gruppo);
+@import url(http://fonts.googleapis.com/css?family=Noto+Sans);
+*{
+	margin:0;
+	padding: 0;
+	box-sizing:border-box;
+}
+body{
+	background-color: #E0E3E5;
+	font-size:18px;
+	font-family: 'Noto', sans-serif;
+}
+img{
+	margin: 0em;
+	padding: 0em;
+	border: 0px;
+}
+
+section#about{
+	width:50%;
+	color: #4F524F;
+	background-color:#fff;
+	margin:4em auto;
+	padding:3em;
+}
+#foodanddrinkpictures{
+	width: 100%;
+}
+#foodanddrinkpictures img{
+	display: block;
+	width: 50%;
+	float: left;
+	padding: 1em;
+}
+#portraitmartini{
+	float: left;
+}
+#landscapemartinitop{
+	float: right;
+}
+
+#martinibottom{
+	float: left;
+}
+
+section#lifestyle img{
+	width: 33.33%;
+	float: left;
+
+}
+
+h1,h2{
+	font-family: 'Gruppo';
+	color: #4F524F;
+	font-size:2em;
+	text-align: left;
+}
+section#lifestyle .saxophonefullwidth{
+	width: 100%;
+}
+
+p{
+	line-height: 1.25em;
+	margin-top: 1em;
+}
+footer{
+	font-size: .75em;
+	text-align: center;
+}
+.clearfix:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+
