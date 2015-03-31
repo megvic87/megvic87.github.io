@@ -32,21 +32,9 @@ section#about{
 	float: left;
 	padding: 1em;
 }
-#portraitmartini{
-	float: left;
-}
-#landscapemartinitop{
-	float: right;
-}
-
-#martinibottom{
-	float: left;
-}
-
 section#lifestyle img{
 	width: 33.33%;
 	float: left;
-
 }
 
 h1,h2{
@@ -58,7 +46,6 @@ h1,h2{
 section#lifestyle .saxophonefullwidth{
 	width: 100%;
 }
-
 p{
 	line-height: 1.25em;
 	margin-top: 1em;
