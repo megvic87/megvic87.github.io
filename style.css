@@ -9,16 +9,38 @@ body{
 	background-color: #E0E3E5;
 	font-size:18px;
 	font-family: 'Noto', sans-serif;
+	padding: 3em;
+	color: #4F524F;
+
 }
 img{
 	margin: 0em;
 	padding: 0em;
 	border: 0px;
 }
-
+nav{
+	font-size: 1.5em;
+}
+nav a{
+	text-decoration: none;
+	color: #4F524F;
+	display: block;
+	float: left;
+	margin: 2em;
+	padding: .5em;
+}
+a:hover{
+	background-color: #5A8FB2;
+}
+.clearfix:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}
 section#about{
 	width:50%;
-	color: #4F524F;
 	background-color:#fff;
 	margin:4em auto;
 	padding:3em;
@@ -37,14 +59,19 @@ section#lifestyle img{
 	float: left;
 }
 
-h1,h2{
-	font-family: 'Gruppo';
-	color: #4F524F;
+h1{
+	font-size:4em;
+}
+h2{
 	font-size:2em;
+}
+h1, h2{
+	font-family: 'Gruppo';
 	text-align: left;
 }
 section#lifestyle .saxophonefullwidth{
 	width: 100%;
+
 }
 p{
 	line-height: 1.25em;
@@ -53,6 +80,7 @@ p{
 footer{
 	font-size: .75em;
 	text-align: center;
+	padding: 2em;
 }
 .clearfix:after { 
    content: "."; 
