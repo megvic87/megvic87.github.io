@@ -5,6 +5,10 @@
 	padding: 0;
 	box-sizing:border-box;
 }
+div{
+	margin:auto;
+	max-width: 1400px;
+}
 body{
 	background-color: #E0E3E5;
 	font-size:18px;
@@ -35,10 +39,9 @@ a:hover{
    height: 0; 
    clear: both;
 }
-section#images{
+#images img {
+	width: 25%;
 	float: left;
-	margin:4% auto;
-	padding:3%;
 }
 footer{
 	font-size: .75em;
@@ -55,6 +58,7 @@ footer{
 @media only screen and (max-width: 800px){
 	nav{ 
 		float: none;
+	}
 	#about{
 		text-align: center;
 	}
