@@ -7,7 +7,10 @@
 }
 div{
 	margin:auto;
-	max-width: 1400px;
+	max-width: 1200px;
+}
+h1{
+	margin: 1.2%;
 }
 body{
 	background-color: #E0E3E5;
@@ -15,8 +18,6 @@ body{
 	font-family: 'Noto', sans-serif;
 	padding: 1%;
 	color: #4F524F;
-	margin: 1%;
-	padding: .5%;
 }
 nav{
 	font-size: 1.5em;
@@ -43,6 +44,15 @@ a:hover{
 	width: 25%;
 	float: left;
 }
+#about{
+	background-color: white;
+	margin: 1.2%;
+	width: 50%;
+}
+#about p{
+	margin: 1%;
+}
+
 footer{
 	font-size: .75em;
 	text-align: center;
@@ -55,13 +65,13 @@ footer{
    height: 0; 
    clear: both;
 }
-@media only screen and (max-width: 800px){
-	nav{ 
-		float: none;
-	}
-	#about{
-		text-align: center;
+@media only screen and (min-width: 401px) and (max-width: 800px){
+	#images img {
+		width: 50%;
 	}
 }
-@media only screen and (max-width: 400px){
+@media only screen and (min-width: 100px) and (max-width: 400px){
+	#images img {
+		width: 100%;
 	}
+}
