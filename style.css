@@ -18,6 +18,7 @@ body{
 	font-family: 'Noto', sans-serif;
 	padding: 1%;
 	color: #4F524F;
+	margin: 1%;
 }
 nav{
 	font-size: 1.5em;
@@ -40,6 +41,9 @@ a:hover{
    height: 0; 
    clear: both;
 }
+#images{
+	margin:1.2%;
+}
 #images img {
 	width: 25%;
 	float: left;
@@ -48,6 +52,7 @@ a:hover{
 	background-color: white;
 	margin: 1.2%;
 	width: 50%;
+	padding: 2em;
 }
 #about p{
 	margin: 1%;
@@ -65,12 +70,17 @@ footer{
    height: 0; 
    clear: both;
 }
+@media only screen and (min-width: 801px) and (max-width: 1000px){
+	#images img {
+		width: 33.3%;
+	}
+}
 @media only screen and (min-width: 401px) and (max-width: 800px){
 	#images img {
 		width: 50%;
 	}
 }
-@media only screen and (min-width: 100px) and (max-width: 400px){
+@media only screen and (max-width: 400px){
 	#images img {
 		width: 100%;
 	}
