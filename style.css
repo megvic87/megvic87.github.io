@@ -9,30 +9,17 @@ div{
 	margin:auto;
 	max-width: 1200px;
 }
-h1{
+h1,h2{
 	margin: 1.2%;
 }
 body{
 	background-color: #E0E3E5;
+
 	font-size:18px;
 	font-family: 'Noto', sans-serif;
 	padding: 1%;
 	color: #4F524F;
 	margin: 1%;
-}
-nav{
-	font-size: 1.5em;
-}
-nav a{
-	text-decoration: none;
-	color: #4F524F;
-	display: block;
-	float: left;
-	margin: 1%;
-	padding: .5%;
-}
-a:hover{
-	background-color: #5A8FB2;
 }
 .clearfix:after { 
    content: "."; 
@@ -49,9 +36,7 @@ a:hover{
 	float: left;
 }
 #about{
-	background-color: white;
 	margin: 1.2%;
-	width: 50%;
 	padding: 2em;
 }
 #about p{
